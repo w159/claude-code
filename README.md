@@ -121,7 +121,7 @@ Execution paths converge on shared **state** (`state/`, `bootstrap/`), **permiss
 
 ## Documentation (GitHub Pages)
 
-Full internals documentation (architecture, workflows, official-docs cross-reference, subsystem reference, appendices) is built with **MkDocs Material** from [`docs-site/`](docs-site/).
+Full internals documentation is built with **MkDocs Material** from [`docs-site/`](docs-site/). The site includes **system design** (layers, state flow, security/trust), **architecture** overview and **workflows**, a **developer hub** (editing docs, navigating `src/`, Bun feature flags), **guides** for greenfield agentic CLI and docs/CI patterns, **reference** pages per subsystem, **official docs map**, and **appendices** (directory layout, tools, env vars, glossary).
 
 - **Live site:** [https://mehmoodosman.github.io/claude-code-source-code/](https://mehmoodosman.github.io/claude-code-source-code/)
 - **Local preview:** `cd docs-site && python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && mkdocs serve`

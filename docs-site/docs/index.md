@@ -15,15 +15,18 @@ The recovered codebase implements primarily the **terminal CLI** surface, plus s
 
 ## How to use this site
 
-| Section                                     | Purpose                                                                                |
-| ------------------------------------------- | -------------------------------------------------------------------------------------- |
-| [Installation](installation.md)             | Build **this documentation** locally; install the **real** Claude Code from Anthropic. |
-| [Reproducibility](reproducibility.md)       | Why you **cannot** rebuild the shipping npm package from this tree alone.              |
-| [Architecture](architecture.md)             | High-level components and data flow.                                                   |
-| [Workflows](workflows.md)                   | Interactive REPL, print/headless, swarm, compaction paths.                             |
-| [Official docs map](official-docs-map.md)   | Every indexed doc page ↔ `src/` entry points.                                          |
-| [Reference](reference/cli-entry.md)         | Deeper dives per subsystem.                                                            |
-| [Appendix](appendix/directory-structure.md) | Directory layout, tool packages, environment variables.                                |
+| Section                                              | Purpose                                                                                   |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [Installation](installation.md)                      | Build **this documentation** locally; install the **real** Claude Code from Anthropic.    |
+| [Reproducibility](reproducibility.md)                | Why you **cannot** rebuild the shipping npm package from this tree alone.                 |
+| [System design](system-design/layers.md)             | Layers, state/data flow, security and trust model.                                        |
+| [Architecture](architecture.md)                      | Overview diagram and links into system design + reference.                                |
+| [Workflows](workflows.md)                            | Interactive REPL, print/headless, swarm, compaction paths.                                |
+| [Developer hub](developer/index.md)                  | Working on docs, navigating `src/`, Bun feature flags.                                    |
+| [Guides](guides/building-an-agentic-cli-overview.md) | **Greenfield** agentic CLI and docs/CI patterns—not cloning this leak.                    |
+| [Official docs map](official-docs-map.md)            | Every indexed doc page ↔ `src/` entry points.                                             |
+| [Reference](reference/cli-entry.md)                  | Deeper dives per subsystem.                                                               |
+| [Appendix](appendix/directory-structure.md)          | Directory layout, tool packages, environment variables, [glossary](appendix/glossary.md). |
 
 ## Repository
 
